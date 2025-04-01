@@ -59,6 +59,12 @@ localhost > koneen oletus kotisivu 127.0.0.1
 
 <img width="414" alt="nmap localhost" src="https://github.com/user-attachments/assets/2baa9b29-ce8f-4d77-b163-24c4a938a733" />
 
+skannattiin klo 23:44 localhost -osoitettani 127.0.0.1   
+verkko on toiminnassa.   
+localhostilla on muita osoitteita "localhostin" lisäksi ip loppuu ::1  
+mitään skaanaamistani tuhannesta portista ei ole auki.  
+ei näytetä 1000 tcp porttia  
+
 
 
      
