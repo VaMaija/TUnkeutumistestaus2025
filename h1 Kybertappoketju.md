@@ -71,7 +71,7 @@ $ mkdir metas/
 $ cd metas/  
 
 
-
+**Tässä vaiheessa nukkumaan. Testailu ja raportointi jatkuu ehkä ensi yönä. ** 2.4.2025 klo 0:19 😴
 
 
 
