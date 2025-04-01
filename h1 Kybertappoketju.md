@@ -65,6 +65,15 @@ localhostilla on muita osoitteita "localhostin" lisäksi ip loppuu ::1
 mitään skaanaamistani tuhannesta portista ei ole auki.  
 ei näytetä 1000 tcp porttia  
 
+## Vagrant 
+$ sudo apt-get -y install virtualbox vagrant curl  
+$ mkdir metas/  
+$ cd metas/  
+
+
+
+
+
 
 
      
