@@ -11,17 +11,55 @@ Kill chainia on käytetty IED (improvised explosive devices) hyökkäysten malli
 
 **Kill chain -mallissa yksi onnistunut torjuntatoimi katkaisee ketjun ja estää hyökkääjän etenemisen**  
 Indicators, vihjeet: 
- - Atomic yksittäiset elementit, joita ei voi jakaa opienempiin osiin menettämättä kontekstia. IP-osoitteet, sähköpostiosoitteet, haavoittuvuustunnisteet
+ - Atomic yksittäiset elementit, joita ei voi jakaa opienempiin osiin menettämättä kontekstia. IP-osoitteet, sähköpostiosoitteet, _haavoittuvuustunnisteet_
  - Computed laskennalliset tiedot Hashit ja säännölliset lausekkeet
  - Behavioral edelliset vihjeet yhdessä ja niiden käyttötapojen lukeminen. Vaatii laajaa tietotaitoa ja yhteistyötä sekä hyvää raportointia.
-Tunkeutumisen kill chain:
-FIND, FIX, TRACK, TARGET, ENGAGE, ASSES (F2T2EA)
-  "Tunkeutumisen ydin on se, että hyökkääjän on kehitettävä hyökkäyspaketti (payload) tunkeutuakseen luotettuun ympäristöön, vakiinnutettava asemansa siellä ja suoritettava toimenpiteitä tavoitteidensa saavuttamiseksi."     
-   
-    
+_Tunkeutumisen kill chain_:
+FIND, FIX, TRACK, TARGET, ENGAGE, ASSES (F2T2EA)  
+  "Tunkeutumisen ydin on se, että hyökkääjän on kehitettävä hyökkäyspaketti (payload) tunkeutuakseen luotettuun ympäristöön, vakiinnutettava asemansa siellä ja suoritettava toimenpiteitä tavoitteidensa saavuttamiseksi."
+
+  1. Tiedustelu (Reconnaissance)  
+  2. Aseistaminen (Weaponization)  
+  3. Toimitus (Delivery)  
+  4. Hyödyntäminen (Exploitation)
+  5. ASennus (Isntallation)
+  6. Command and control
+  7. tavoitteiden saavuttaminen (Action of objectives)
+
+Vastatoimet: 
+isäntäjärjestelmän tunkeutumisen havaitsemisjärjestelmä (HIDS)
+Pachingin automatisointi
+Etäkäytön esto, käyttäjien koulutus ym.
+
+Hyökkäyksen jälkeinen analysointi auttaa valmistautumaan seuraavaan hyökkäykseen. 
+
+
+**KKO 2003:36 R2001/678** 
+Käyttäjä a on skannannut 23.11.1998 Osuuspankkikeskuksen portit pääsemättä läpi palomuurista. 
+Tietomurron yritys nuorena henkilönä, korvausvaade: 
+"Rikoslain 38 luvun 8 §:n 1 momentin mukaan se, joka käyttämällä hänelle kuulumatonta käyttäjätunnusta taikka turvajärjestelyn muuten murtamalla oikeudettomasti tunkeutuu tietojärjestelmään, jossa sähköisesti tai muulla vastaavalla teknisellä keinolla käsitellään, varastoidaan tai siirretään tietoja, taikka sellaisen järjestelmän erikseen suojattuun osaan, on tuomittava rangaistukseen tietomurrosta. Saman pykälän 3 momentin mukaan myös yritys on rangaistava." On ollut tuolloin voimassa ja on voimassa edelleen. Sakkoa-2 vuotta vankeutta ellei muualla asiasta määrätä suurempaa rangaistusta. Pääsääntöisesti asianomistajarikos. 
+
+## a) Kali asennettuna virtuaalikoneeseen
+versio: kali-linux-2025.1a-live-amd64 
+Loin kloonin jo aiemmin luodusta Kalista.  
+
+## b) ping
+
+<img width="565" alt="netti poikki" src="https://github.com/user-attachments/assets/9c242867-db1f-4f4f-8c5c-1bf40ad936e4" />    
+
+Oikeasta yläkulmasta kaapeli irti. 
+
+
+
+
+
+
+     
 
 LÄHTEET: 
 Kurssin läksysivu: https://terokarvinen.com/tunkeutumistestaus/  
 Jack Rhysider, Darknet Diaries [EP 156](https://darknetdiaries.com/episode/156/) kuunneltu 29.3.2025   
 Eric M. Hutchins, Michael J. Cloppert, Rohan M. Amin, Ph.D.‡ Lockheed Martin Corporation: Intelligence-Driven Computer Network Defense
 Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains [Whitepaper-intel-driven-defence](https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf)  käännetty chatgptlla ja tiivistetty 1.4.2025  
+KKO 2003:36 [ennakkopäätös](https://finlex.fi/fi/oikeuskaytanto/korkein-oikeus/ennakkopaatokset/2003/36#OT0_OT0) luettu 1.4.2025
+ajantasainen lainsäädäntö [rikoslaki](https://finlex.fi/fi/lainsaadanto/1889/39-001?language=fin&highlightId=591158&highlightParams=%7B%22type%22%3A%22BASIC%22%2C%22search%22%3A%22rikoslaki%22%7D#chp_38v19950578__sec_10v20110441__heading) luettu 1.4.2025
