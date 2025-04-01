@@ -89,3 +89,4 @@ Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains [Whitepape
 KKO 2003:36 [ennakkopäätös](https://finlex.fi/fi/oikeuskaytanto/korkein-oikeus/ennakkopaatokset/2003/36#OT0_OT0) luettu 1.4.2025
 ajantasainen lainsäädäntö [rikoslaki](https://finlex.fi/fi/lainsaadanto/1889/39-001?language=fin&highlightId=591158&highlightParams=%7B%22type%22%3A%22BASIC%22%2C%22search%22%3A%22rikoslaki%22%7D#chp_38v19950578__sec_10v20110441__heading) luettu 1.4.2025
 $ man nmap luettu osaksi 1.4.2025
+Karvinen 2018 [Install Metasploitable 3 – Vulnerable Target Computer](https://terokarvinen.com/2018/install-metasploitable-3-vulnerable-target-computer/)
