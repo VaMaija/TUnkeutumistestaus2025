@@ -49,8 +49,15 @@ Loin kloonin jo aiemmin luodusta Kalista.
 
 Oikeasta yläkulmasta kaapeli irti. 
 
+## c) Porttiskannaa 100 tavallisinta tcp-porttia omasta koneestasi komennolla nmap -TA -A localhost
 
+nmap -TA -A localhost  //man nmap  
+nmap > porttiskannaustyökalu, joka käyttää ip-paketteja sen selvittämiseen mm. mitä hosteja,   
+-T4 > nopeuttaa skannausta  
+-A > ottaa mukaan skannaukseen myös OS version havaitsemisen  
+localhost > koneen oletus kotisivu 127.0.0.1  
 
+<img width="414" alt="nmap localhost" src="https://github.com/user-attachments/assets/2baa9b29-ce8f-4d77-b163-24c4a938a733" />
 
 
 
@@ -63,3 +70,4 @@ Eric M. Hutchins, Michael J. Cloppert, Rohan M. Amin, Ph.D.‡ Lockheed Martin C
 Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains [Whitepaper-intel-driven-defence](https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf)  käännetty chatgptlla ja tiivistetty 1.4.2025  
 KKO 2003:36 [ennakkopäätös](https://finlex.fi/fi/oikeuskaytanto/korkein-oikeus/ennakkopaatokset/2003/36#OT0_OT0) luettu 1.4.2025
 ajantasainen lainsäädäntö [rikoslaki](https://finlex.fi/fi/lainsaadanto/1889/39-001?language=fin&highlightId=591158&highlightParams=%7B%22type%22%3A%22BASIC%22%2C%22search%22%3A%22rikoslaki%22%7D#chp_38v19950578__sec_10v20110441__heading) luettu 1.4.2025
+$ man nmap luettu osaksi 1.4.2025
