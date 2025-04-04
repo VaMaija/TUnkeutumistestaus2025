@@ -73,6 +73,13 @@ $ cd metas/
 
 **Tässä vaiheessa nukkumaan. Testailu ja raportointi jatkuu ehkä ensi yönä. ** 2.4.2025 klo 0:19 😴
 
+$ nano Vagrantfile
+## Vagrantfile
+## http://terokarvinen.com/2018/install-metasploitable-3-vulnerable-target-computer
+ Vagrant.configure("2") do |config|
+   config.vm.box = "rapid7/metasploitable3-ub1404"
+   config.vm.network "forwarded_port", guest: 80, host: 8080
+end
 
 
 
