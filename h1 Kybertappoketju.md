@@ -81,6 +81,10 @@ $ nano Vagrantfile
    config.vm.network "forwarded_port", guest: 80, host: 8080
 end
 
+$ cd  metas/
+$ vagrant up
+
+En saanut vagrantia käyynitymään vaikka tarkastin biosista, että virtuaalikoneet on sallittu ja poistin powershellistä Hyper-v:n pois käytöstä 
 
 
 
