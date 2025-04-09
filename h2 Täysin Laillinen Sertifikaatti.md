@@ -12,7 +12,9 @@
     Väkisin selaaminen  sivulle pääsee selaamaan kirjautumatta tai pääsy halluntapaneeliin ilman admin-tunnuksia.   
 **OWASP Top 10:2021 A10:2021 Server-Side Request Forgery (SSRF)**  
     SSRF -haavoittuvuus antaa mahdollisuuden hyökkääjälle hakea etäresurssia URL-osoitetta tarkastamatta. 
-    Hyökkääjä pakottaa palvelimen tekemään verkkopyynnön hyökkääjän haluamaan osoitteeseen. Eli jos haavoittuvuus on olemassa, niin hyökkääjä saa serverin sisäisiä tietoja käyttöönsä, koska pyynnöt näyttövät tulevan omalata palvelimelta. Käyetäänkötätä palvelunestohyökkäyksiin?
+    Hyökkääjä pakottaa palvelimen tekemään verkkopyynnön hyökkääjän haluamaan osoitteeseen. Eli jos haavoittuvuus on olemassa, niin hyökkääjä saa serverin sisäisiä tietoja käyttöönsä, koska pyynnöt näyttövät tulevan omalata palvelimelta. Käyetäänkö tätä palvelunestohyökkäyksiin?
+
+    
 
   
 
